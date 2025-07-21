@@ -55,3 +55,11 @@ psql -U freecodecamp
 chmod +x insert_data.sh queries.sh
 ./insert_data.sh
 ./queries.sh
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/fredcode-cmd/World-Cup-Database.git
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+l
+lis
+ls --color=auto
+git add .
